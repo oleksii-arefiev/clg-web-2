@@ -1,9 +1,9 @@
 {
-    "name": "College Love Game",
-    "short_name": "College Love Game",
+    "name": "My project",
+    "short_name": "My project",
     "start_url": "index.html",
     "display": "fullscreen",
-    "background_color": "#463E40",
+    "background_color": "#231F20",
     "theme_color": "#000",
     "description": "",
     "icons": [{

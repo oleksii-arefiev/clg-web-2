@@ -1,9 +1,9 @@
-const cacheName = "DALS FZE-College Love Game-1.0.0";
+const cacheName = "DefaultCompany-My project-0.1";
 const contentToCache = [
     "Build/Build.loader.js",
-    "Build/Build.framework.js.unityweb",
-    "Build/Build.data.unityweb",
-    "Build/Build.wasm.unityweb",
+    "Build/Build.framework.js.gz",
+    "Build/Build.data.gz",
+    "Build/Build.wasm.gz",
     "TemplateData/style.css"
 
 ];
