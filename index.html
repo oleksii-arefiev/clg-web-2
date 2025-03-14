@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>My project</title>
+	<title>College Love Game</title>
 	<style>
 		html,
 		body {
@@ -43,21 +43,21 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" width="450" height="900" data-pixel-art=""></canvas>
-		<script src="Build/5336a4b2c43054286fd70b1faa467eee.loader.js"></script>
+		<script src="Build/Build.loader.js"></script>
 		<script>
 			var canvas = document.querySelector("#unity-canvas");
 			var config = {
-				dataUrl: "Build/e7417f2c848e80cab56e0de087d96353.data.unityweb",
-				frameworkUrl: "Build/fd77fabdadfc30e52ebaf3d6c297532c.framework.js.unityweb",
-        		codeUrl: "Build/d3e318cb1d1e833d418913ee68b3b8bf.wasm.unityweb",
+				dataUrl: "Build/Build.data.unityweb",
+				frameworkUrl: "Build/Build.framework.js.unityweb",
+        		codeUrl: "Build/Build.wasm.unityweb",
 				streamingAssetsUrl: "StreamingAssets",
-				companyName: "DefaultCompany",
-				productName: "My project",
-				productVersion: "0.1",
+				companyName: "DALS FZE",
+				productName: "College Love Game",
+				productVersion: "1.0.0",
 			};
 			var scaleToFit;
 			try {
-				scaleToFit = !!JSON.parse("");
+				scaleToFit = !!JSON.parse("true");
 			} catch (e) {
 				scaleToFit = true;
 			}
