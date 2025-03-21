@@ -2,25 +2,6 @@
   <assembly fullname="CLG.Base, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="CLG.Base.LoadOperationSystem.LoadingOperationManager" preserve="all" />
   </assembly>
-  <assembly fullname="CLG.DebugTools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="CLG.DebugTools.AnalyticSystem.AnalyticManagerHud" preserve="all" />
-    <type fullname="CLG.DebugTools.DebugButton" preserve="all" />
-    <type fullname="CLG.DebugTools.DebugManager" preserve="all" />
-    <type fullname="CLG.DebugTools.DebugSettings" preserve="all" />
-    <type fullname="CLG.DebugTools.GUI.CustomGUIStyle" preserve="all" />
-    <type fullname="CLG.DebugTools.LoadingSystem.ScenesManagerHud" preserve="all" />
-    <type fullname="CLG.DebugTools.ResourceSystem.DebugResourceManager" preserve="all" />
-    <type fullname="CLG.DebugTools.RewardSystem.DebugRewardManager" preserve="all" />
-    <type fullname="CLG.DebugTools.RoomSystem.DebugProgressManager" preserve="all" />
-    <type fullname="CLG.DebugTools.SettingsSystem.SettingsManagerHud" preserve="all" />
-    <type fullname="CLG.DebugTools.SlotMachine.DebugSlotManager" preserve="all" />
-    <type fullname="CLG.DebugTools.Utils.DebugTimeManager" preserve="all" />
-    <type fullname="CLG.DebugTools.Utils.FPSCounter" preserve="all" />
-    <type fullname="CLG.DebugTools.Utils.MoveableButton" preserve="all" />
-    <type fullname="CLG.DebugTools.Utils.OnGuiInvoker" preserve="all" />
-    <type fullname="CLG.DebugTools.Utils.DebugKey" preserve="nothing" serialized="true" />
-    <type fullname="CLG.DebugTools.Utils.KeyPair" preserve="nothing" serialized="true" />
-  </assembly>
   <assembly fullname="CLG.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="CLG.Runtime.AnalyticSystem.SessionManager" preserve="all" />
     <type fullname="CLG.Runtime.Animation.AnimationSpeedManager" preserve="all" />
@@ -363,49 +344,9 @@
     <type fullname="CLG.Utils.ThreadManager" preserve="all" />
     <type fullname="CLG.Utils.ValueInInterval" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="DebugConsole, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="IngameDebugConsole.DebugLogItem" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugLogManager" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugLogPopup" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugLogRecycledListView" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugsOnScrollListener" preserve="all" />
-  </assembly>
   <assembly fullname="I2Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="I2.Loc.Localize" preserve="all" />
     <type fullname="I2.Loc.EventCallback" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="RuntimeInspector.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="RuntimeInspectorNamespace.ArrayField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.BoolField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.BoundInputField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.BoundsField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.BoundSlider" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.ColorField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.EnumField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.ExposedMethodField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.GameObjectField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.HierarchyDragDropListener" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.HierarchyField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.NonDrawingGraphic" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.NonDrawingMaskableGraphic" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.NumberField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.NumberRangeField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.ObjectField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.ObjectReferenceField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.PointerEventListener" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.RectField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.RecycledListView" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.RuntimeHierarchy" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.RuntimeInspector" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.RuntimeInspectorSettings" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.StringField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.TextureReferenceField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.TransformField" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.UISkin" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.Vector2Field" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.Vector3Field" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.Vector4Field" preserve="all" />
-    <type fullname="RuntimeInspectorNamespace.VariableSet" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
@@ -487,11 +428,6 @@
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[CLG.Runtime.UI.Common.SliderButton]" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.GUISkin" preserve="all" />
-    <type fullname="UnityEngine.GUISettings" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.GUIStyle" preserve="nothing" serialized="true" />
-  </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
     <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
@@ -508,28 +444,20 @@
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
-    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
     <type fullname="UnityEngine.EventSystems.Physics2DRaycaster" preserve="all" />
     <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
-    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
-    <type fullname="UnityEngine.UI.Dropdown" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
-    <type fullname="UnityEngine.UI.InputField" preserve="all" />
     <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
-    <type fullname="UnityEngine.UI.RawImage" preserve="all" />
-    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
-    <type fullname="UnityEngine.UI.Text" preserve="all" />
-    <type fullname="UnityEngine.UI.Toggle" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
@@ -538,18 +466,8 @@
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.Dropdown/OptionData" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.Dropdown/OptionDataList" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
